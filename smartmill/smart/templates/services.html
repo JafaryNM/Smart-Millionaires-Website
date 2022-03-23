@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+<div class="breadcrumb-area services service-bg">
+    <div class="container">
+       <div class="breadcrumb-txt">
+          <div class="row">
+             <div class="col-xl-7 col-lg-8 col-sm-10">
+                <span>Our Services</span>
+                <h1>We work with you to achieve your goals.</h1>
+                <ul class="breadcumb">
+                   <li><a href="index.html">Home</a></li>
+                   <li>Our Services</li>
+                </ul>
+             </div>
+          </div>
+       </div>
+    </div>
+    <div class="breadcrumb-area-overlay"></div>
+ </div>
+ <!--   hero area end    -->
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+                <div class="single-service">
+                    <div class="service-img-wrapper">
+                       <img src="{% static 'assets/img/services/service_1.jpg'%}" alt="">
+                    </div>
+                    <div class="service-txt">
+                       <h4 class="service-title"><a href="service-details.html">Business & Consultancy</a></h4>
+                       <p class="service-summary">We help investors and innovators work together safely in a way that both parties can succeed.</p>
+    
+                    </div>
+                </div>
+                    
+              </div>
+              <div class="col-6">
+                <div class="single-service">
+                    <div class="service-img-wrapper">
+                       <img src="{% static 'assets/img/services/service_2.jpg'%}" alt="">
+                    </div>
+                    <div class="service-txt">
+                       <h4 class="service-title"><a href="service-details.html">Innovation</a></h4>
+                       <p class="service-summary">we analyze and develop ideas that drive new perspectives, new products and new paths to growth.</p>
+    
+                    </div>
+                </div>
+                
+             </div>
+             <div class="col-6">
+                <div class="single-service">
+                    <div class="service-img-wrapper">
+                       <img src="{% static 'assets/img/services/service_3.jpg'%}" alt="">
+                    </div>
+                    <div class="service-txt">
+                       <h4 class="service-title"><a href="service-details.html">Investment</a></h4>
+                       <p class="service-summary">We invest and partner with our investors to invest in different projects from our innovators and clients.</p>
+    
+                    </div>
+                </div>
+                
+                
+             </div>
+             <div class="col-6">
+                <div class="single-service">
+                    <div class="service-img-wrapper">
+                       <img src="{% static 'assets/img/services/service_4.jpg'%}" alt="">
+                    </div>
+                    <div class="service-txt">
+                       <h4 class="service-title"><a href="service-details.html">Connect Investors with Innovators</a></h4>
+                       <p class="service-summary">We advise our members and clients on how to start businesses or companies, grow and manage. </p>
+    
+                    </div>
+                </div>
+                
+             </div>
+    
+          </div>
+
+          </div>
+
+  </div>
+             
+
+
+
+
+  
+    
+{% endblock content %}
+    
